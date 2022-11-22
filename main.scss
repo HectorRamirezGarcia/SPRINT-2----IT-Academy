@@ -2,11 +2,14 @@ $primary: #5265E1;
 $secondary: #FA5959;
 $color-button-nav-login: white;
 $color-button-nav: gray;
+$font-page: 'Cabin', sans-serif;
+
 
 body{
     height: 100%;
     width: 100%;
 }
+
 // Nav style {
 .img-logo {
     width: auto;
@@ -28,7 +31,7 @@ $navbar-padding-x: 10rem;
 $btn-font-weight: bold;
 $btn-padding-x: 2.0rem;
 $btn-font-size: 0.9rem;
-$btn-font-family: 'Cabin', sans-serif;
+$btn-font-family: $font-page;
 
 // }
 
@@ -41,16 +44,16 @@ $btn-font-family: 'Cabin', sans-serif;
 }
 
 .title-h1 {
-    font-family: 'Cabin', sans-serif;
+    font-family: $font-page;
     font-weight: bold;
 }
 
 .text-styles {
-    font-family: 'Cabin', sans-serif;
+    font-family: $font-page;
     color: gray;
 }
 
-.background-form {
+.background-form-right {
     position: relative;
     width: 103%;
     height: 22rem; 
@@ -59,12 +62,38 @@ $btn-font-family: 'Cabin', sans-serif;
     border-bottom-left-radius: 300px;
 }
 
+.background-form-left {
+    position: relative;
+    width: 103%;
+    height: 18rem; 
+    background-color: rgba(82,102,223,255); 
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+
+}
+
 .img-banner {
     display: block;
 }
 // }
 
+// Main content-2 style {
 
+    .nav-link, .nav-tabs, .nav {
+        border: none !important;
+        color: gray !important;
+        font-family: $font-page;
+    }
+
+    .tabs:hover {
+        color: $secondary !important;
+    }
+
+    .active {
+        color: black !important;
+        border-bottom: 0.2rem solid $secondary !important;
+    }
+// }
 
 // Import Bootstrap modules
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
