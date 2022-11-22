@@ -1,0 +1,73 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+$color-button-nav-login: white;
+$color-button-nav: gray;
+
+body{
+    height: 100%;
+    width: 100%;
+}
+// Nav style {
+.img-logo {
+    width: auto;
+    height: 2rem;
+}
+
+$navbar-padding-y: 4rem;
+$navbar-padding-x: 10rem;
+
+.btn {
+    color: $color-button-nav !important;
+    letter-spacing: 2.5px;
+}
+
+.btn-secondary, .btn-primary {
+    color: $color-button-nav-login !important;
+}
+
+$btn-font-weight: bold;
+$btn-padding-x: 2.0rem;
+$btn-font-size: 0.9rem;
+$btn-font-family: 'Cabin', sans-serif;
+
+// }
+
+// Main content-1 style {
+
+.container-left {
+    padding: 10rem !important;
+    padding-top: 5rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.title-h1 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.text-styles {
+    font-family: 'Cabin', sans-serif;
+    color: gray;
+}
+
+.background-form {
+    position: relative;
+    width: 103%;
+    height: 22rem; 
+    background-color: rgba(82,102,223,255); 
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+
+.img-banner {
+    display: block;
+}
+// }
+
+
+
+// Import Bootstrap modules
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+// Import Google font module
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
