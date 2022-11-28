@@ -94,7 +94,7 @@ body{
     }
     
     .background-form-left {
-        height: 10rem !important;
+        text-align: left !important;
     }
 }
 
@@ -188,6 +188,22 @@ $btn-font-family: $font-page;
     #extension-opera {
         padding-top: $padding-extension + 4rem;
     }
+
+// }
+
+// Accordion Style {
+
+    .accordion {
+        font-family: $font-page;
+    }
+
+    $accordion-padding-x: 20%;
+    $accordion-border-color: white;
+    $accordion-icon-color: $primary;
+    $accordion-button-focus-border-color: white;
+    $accordion-button-focus-box-shadow: white;
+    $accordion-button-active-color: black;
+
 
 // }
 
