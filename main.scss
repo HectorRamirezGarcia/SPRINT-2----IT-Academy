@@ -208,11 +208,11 @@ $btn-font-family: $font-page;
 
 // Extension Style {
 
-    #extension-firefox {
+    .extensions div:nth-child(2n){
         padding-top: $padding-extension;
     }
 
-    #extension-opera {
+    .extensions div:nth-child(3n){
         padding-top: $padding-extension + 4rem;
     }
 
@@ -261,10 +261,6 @@ $btn-font-family: $font-page;
     .footer-end {
         background-color: rgba(36,41,70,255);
         color: white;
-    }
-
-    .img-inverse {
-        fill: red !important;
     }
 
     .footer-buttons {
