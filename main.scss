@@ -9,7 +9,6 @@ $padding-extension: 5rem;
 body{
     height: 100%;
     width: 100%;
-    padding: 2rem;
 }
 
 .mobile-content1 {
@@ -56,6 +55,10 @@ body{
         text-align: left !important;
     }
 
+    .features-sections {
+        padding-top: 15rem !important; 
+    }
+
     #features > .nav-item {
         padding: 5rem !important;
         padding-top: 0.1rem !important;
@@ -96,6 +99,26 @@ body{
     .background-form-left {
         text-align: left !important;
     }
+}
+
+// Buttons style 
+.btn-secondary:hover {
+    background-color: white !important;
+    color: $secondary !important;
+    border-color: $secondary !important;
+}
+
+.btn-primary:hover {
+    background-color: white !important;
+    color: $primary !important;
+}
+
+.nav-buttons:hover {
+    color: $secondary !important;
+}
+
+.footer-buttons:hover {
+    color: $secondary !important;
 }
 
 // Nav style {
@@ -177,6 +200,10 @@ $btn-font-family: $font-page;
     #features > .nav-item {
         padding: 1rem;
     }
+
+    .features-sections {
+        padding-top: 5rem; 
+    }
 // }
 
 // Extension Style {
@@ -192,7 +219,6 @@ $btn-font-family: $font-page;
 // }
 
 // Accordion Style {
-
     .accordion {
         font-family: $font-page;
     }
@@ -203,8 +229,61 @@ $btn-font-family: $font-page;
     $accordion-button-focus-border-color: white;
     $accordion-button-focus-box-shadow: white;
     $accordion-button-active-color: black;
+// }
+
+// Footer Style {
+    .footer {
+        margin-top: 10rem;
+        background-color: $primary;
+        color: white;
+        font-family: $font-page;
+    }
+
+    $form-feedback-font-style: $font-page;
+    $form-feedback-margin-top: -0.3rem;
+    $form-feedback-invalid-color: $secondary;
+    .invalid-feedback {
+        background-color: $secondary;
+        color: white !important; 
+    }
+
+    .invalid-feedback > i {
+        padding: 0.5rem;
+    }
 
 
+    .footer-enjoy {
+        font-family: $font-page;
+        letter-spacing: 0.3em;
+        font-size: 0.8rem;
+    }
+
+    .footer-end {
+        background-color: rgba(36,41,70,255);
+        color: white;
+    }
+
+    .img-inverse {
+        fill: red !important;
+    }
+
+    .footer-buttons {
+        background-color: transparent;
+        border: none;
+        font-family: $font-page;
+        color: white !important;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 2px;
+        
+    }
+
+    .footer-buttons:hover {
+        color: $secondary;
+    }
+    
+    
 // }
 
 // Import Bootstrap modules
